@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Hello</title>
+</head>
+<body>
+      <h1 data-th-text="${greetings}">hello, world</h1>
+      <br><br>
+      <h2>Update message</h2>
+      <form action="/" method="POST">
+            <table>
+                  <tr>
+                        <td>Message: </td>
+                        <td>
+                              <input type="text", name="greetings" size="40">
+                        </td>
+                  </tr>
+            </table>
+            <input type="submit" value="Update">
+      </form>
+</body>
+</html>
